@@ -1,4 +1,4 @@
-# Effective API Field Definitions
+# Effective Data Dictionary and API Field Definitions
 
 Have you ever experienced bad documentation? Whether it's assembling your child's toy or setting up your camera for that once-in-a-lifetime solar eclipse, poorly written, ambiguous documentation is wasteful and frustrating. Clearly written API reference documentation is even more important because the target audience is technical and efficiency is key. Following is a sample JSON and the corresponding field definitions table from an API reference guide. Compare the ambiguous definitions to the useful, descriptive definitions written by a technical writer. Which do you prefer?
 
@@ -55,3 +55,4 @@ Have you ever experienced bad documentation? Whether it's assembling your child'
 |clientAffiliation.expirationDate |Expiration date  |End date of the affiliation record for the client and XYZ Corp. <br> Format: YYYY-MM-DD   |
 |data |Data  |An object that contains information about the contract.  |
 |data.holdStatus |Defines holds on contract  |Indicates whether the client has any holds currently applied to the contract. <br>Valid values: <ul><li>0: False (default)</li><li>1: True</li></ul>|
+
